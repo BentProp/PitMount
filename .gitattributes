@@ -1,0 +1,5 @@
+* text=auto eol=crlf
+
+PitMount.kicad_prl  text eol=lf
+PitMount.kicad_pro  text eol=lf
+PitMount.xml        text eol=lf
