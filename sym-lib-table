@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "PitMount")(type "KiCad")(uri "${KIPRJMOD}/PitMount.kicad_sym")(options "")(descr ""))
+)
