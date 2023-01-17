@@ -108,10 +108,10 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810261420_YAGEO-RC0402FR-07470RL_C114877.pdf</datasheet>
       <fields>
-        <field name="LCSC">C3015779 </field>
+        <field name="LCSC">C3015779</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C3015779 "/>
+      <property name="LCSC" value="C3015779"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

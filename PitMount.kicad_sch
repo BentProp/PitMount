@@ -988,7 +988,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261420_YAGEO-RC0402FR-07470RL_C114877.pdf" (id 3) (at 90.17 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C3015779 " (id 4) (at 90.17 85.09 0)
+    (property "LCSC" "C3015779" (id 4) (at 90.17 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9017ba91-ed5d-4e2a-a7f2-e50c4b851c45))
