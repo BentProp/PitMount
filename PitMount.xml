@@ -38,6 +38,42 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1b8c00fa-e7ad-4458-b438-f3f4ef6a5d07</tstamps>
     </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>PitMount:3.2mm_PTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5890d34d-218f-435b-ba67-2017655ebfa5</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>PitMount:3.2mm_PTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24804176-3315-4716-8bbc-e01bf025e551</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>PitMount:3.2mm_PTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd4773b8-24bf-4708-8f9f-f8fb2d44b2c4</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>PitMount:3.2mm_PTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7a0c2e5-a9b9-458f-a634-e124b119ebea</tstamps>
+    </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
@@ -206,17 +242,20 @@
         <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Mechanical" part="MountingHole">
-      <description>Mounting Hole without connection</description>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
       <docs>~</docs>
       <footprints>
-        <fp>MountingHole*</fp>
+        <fp>MountingHole*Pad*</fp>
       </footprints>
       <fields>
         <field name="Reference">H</field>
-        <field name="Value">MountingHole</field>
+        <field name="Value">MountingHole_Pad</field>
         <field name="Datasheet">~</field>
       </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
     </libpart>
     <libpart lib="PitMount" part="ELRS-Rx">
       <fields>
@@ -242,6 +281,10 @@
         <pin num="4" name="Gnd" type="input"/>
         <pin num="5" name="Video" type="input"/>
         <pin num="6" name="SA" type="input"/>
+        <pin num="7" name="Gnd" type="input"/>
+        <pin num="8" name="Gnd" type="input"/>
+        <pin num="9" name="Gnd" type="input"/>
+        <pin num="10" name="Btn" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_BJT" part="BC817">
@@ -317,6 +360,10 @@
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
     </net>
     <net code="8" name="GND">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
