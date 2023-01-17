@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\n.hofmann\Qsync\Mikrocontroller\Projekte\KiCad\PitMount\PitMount.kicad_sch</source>
-    <date>05.01.2023 15:05:50</date>
+    <date>1/17/2023 3:40:32 PM</date>
     <tool>Eeschema (6.0.6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,14 +25,14 @@
   </design>
   <components>
     <comp ref="D1">
-      <value>19-217/R6C-P1Q2/3T</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1809111512_Everlight-Elec-19-217-R6C-P1Q2-3T_C142276.pdf</datasheet>
+      <value>2SA0402S11A0JT01</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1808291043_Brightek-Optoelectronics-2SA0402S11A0JT01_C233194.pdf</datasheet>
       <fields>
-        <field name="LCSC">C142276</field>
+        <field name="LCSC">C233194</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="LCSC" value="C142276"/>
+      <property name="LCSC" value="C233194"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
