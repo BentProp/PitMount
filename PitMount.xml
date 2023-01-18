@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>C:\Users\n.hofmann\Qsync\Mikrocontroller\Projekte\KiCad\PitMount\PitMount.kicad_sch</source>
-    <date>1/17/2023 3:40:32 PM</date>
-    <tool>Eeschema (6.0.6)</tool>
+    <date>1/18/2023 2:34:46 PM</date>
+    <tool>Eeschema (7.0.0-rc1-70-g9298defd3f)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -27,14 +27,16 @@
     <comp ref="D1">
       <value>2SA0402S11A0JT01</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1808291043_Brightek-Optoelectronics-2SA0402S11A0JT01_C233194.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1806151119_Everlight-Elec-16-213-SDRC-S530-A3-TR8_C71911.pdf</datasheet>
       <fields>
-        <field name="LCSC">C233194</field>
+        <field name="LCSC">C71911</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="LCSC" value="C233194"/>
+      <property name="LCSC" value="C71911"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1b8c00fa-e7ad-4458-b438-f3f4ef6a5d07</tstamps>
     </comp>
@@ -44,6 +46,8 @@
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5890d34d-218f-435b-ba67-2017655ebfa5</tstamps>
     </comp>
@@ -53,6 +57,8 @@
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>24804176-3315-4716-8bbc-e01bf025e551</tstamps>
     </comp>
@@ -62,6 +68,8 @@
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dd4773b8-24bf-4708-8f9f-f8fb2d44b2c4</tstamps>
     </comp>
@@ -71,8 +79,28 @@
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e7a0c2e5-a9b9-458f-a634-e124b119ebea</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>Tooling_Hole</value>
+      <footprint>PitMount:Tooling Hole</footprint>
+      <libsource lib="PitMount" part="Tooling_Hole" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00c4b040-0c0a-44f7-a83c-745c7e9f586a</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>Tooling_Hole</value>
+      <footprint>PitMount:Tooling Hole</footprint>
+      <libsource lib="PitMount" part="Tooling_Hole" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f428637f-a06f-4f51-8742-a62625c7eb79</tstamps>
     </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
@@ -80,6 +108,8 @@
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8ea02758-663b-4293-812e-b6546280e50d</tstamps>
     </comp>
@@ -88,12 +118,16 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2001081504_Shikues-BC817_C475629.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Rotation Offset">180</field>
         <field name="LCSC">C475629</field>
       </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <property name="LCSC" value="C475629"/>
+      <property name="JLCPCB Rotation Offset" value="180"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f26f22e5-ff95-46ac-9fbb-be150ac8296d</tstamps>
     </comp>
@@ -102,12 +136,16 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2005121032_HUASHUO-IRLML6401_C518776.pdf</datasheet>
       <fields>
+        <field name="JLCPCB Rotation Offset">180</field>
         <field name="LCSC">C518776</field>
       </fields>
       <libsource lib="Transistor_FET" part="IRLML6401" description="-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
       <property name="LCSC" value="C518776"/>
+      <property name="JLCPCB Rotation Offset" value="180"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel HEXFET MOSFET Logic-Level"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>88e43983-8bfe-4340-8af8-8088211e3179</tstamps>
     </comp>
@@ -122,6 +160,8 @@
       <property name="LCSC" value="C3015825"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7ccde7a0-d574-4619-a25d-8b0b47b36f40</tstamps>
     </comp>
@@ -136,6 +176,8 @@
       <property name="LCSC" value="C3015825"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7e3b335e-4bc6-45e7-9ed1-72b3b60b1429</tstamps>
     </comp>
@@ -144,12 +186,14 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810261420_YAGEO-RC0402FR-07470RL_C114877.pdf</datasheet>
       <fields>
-        <field name="LCSC">C3015779</field>
+        <field name="LCSC">C114877</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C3015779"/>
+      <property name="LCSC" value="C114877"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>034dca01-cb69-4fe8-81d1-15f372786b1f</tstamps>
     </comp>
@@ -269,6 +313,12 @@
         <pin num="4" name="RX" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="PitMount" part="Tooling_Hole">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Tooling_Hole</field>
+      </fields>
+    </libpart>
     <libpart lib="PitMount" part="UnifyNano">
       <fields>
         <field name="Reference">U</field>
@@ -326,28 +376,28 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
     <library logical="PitMount">
       <uri>C:\Users\n.hofmann\Qsync\Mikrocontroller\Projekte\KiCad\PitMount/PitMount.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -367,20 +417,20 @@
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
-    </net>
-    <net code="10" name="Net-(D1-Pad2)">
+    <net code="9" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(JP1-Pad2)">
+    <net code="10" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(JP1-B)">
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(Q1-Pad3)">
+    <net code="12" name="Net-(Q1-C)">
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
