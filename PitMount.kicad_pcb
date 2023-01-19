@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "PitMount")
+    (date "2023-01-19")
+    (rev "0.1.0")
+    (company "Bentprop Electronics")
+    (comment 1 "© 2023 Nils Hofmann")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
