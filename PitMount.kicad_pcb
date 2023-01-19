@@ -154,6 +154,7 @@
     (property "ki_description" "Solder Jumper, 2-pole, open")
     (property "ki_keywords" "solder jumper SPST")
     (path "/8ea02758-663b-4293-812e-b6546280e50d")
+    (attr exclude_from_bom)
     (fp_text reference "JP1" (at 0 -1.8 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp abc6b1f3-f7cc-4ab0-96d5-6dcda2e7f78b)
@@ -226,6 +227,7 @@
     (property "ki_description" "Mounting Hole with connection")
     (property "ki_keywords" "mounting hole")
     (path "/24804176-3315-4716-8bbc-e01bf025e551")
+    (attr exclude_from_bom)
     (fp_text reference "H2" (at 0 -5.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83f362d2-6ffb-424c-8281-55accee23758)
@@ -298,6 +300,7 @@
     (property "ki_description" "Mounting Hole with connection")
     (property "ki_keywords" "mounting hole")
     (path "/5890d34d-218f-435b-ba67-2017655ebfa5")
+    (attr exclude_from_bom)
     (fp_text reference "H1" (at 0 -5.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b94a6d19-e2bc-4e9b-adb9-6d12b949ed1e)
@@ -326,7 +329,7 @@
     (property "ki_description" "Generic connector, single row, 01x08, script generated")
     (property "ki_keywords" "connector")
     (path "/0bccd08d-4e53-4fb7-96f0-a8c25890538b")
-    (attr smd)
+    (attr smd exclude_from_bom)
     (fp_text reference "J1" (at 0 -1.778 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3b76e28f-8993-4765-afb6-f91a5d1f1c62)
@@ -361,6 +364,7 @@
     (property "ki_description" "Mounting Hole with connection")
     (property "ki_keywords" "mounting hole")
     (path "/e7a0c2e5-a9b9-458f-a634-e124b119ebea")
+    (attr exclude_from_bom)
     (fp_text reference "H4" (at 0 -5.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e08347ff-8b64-4efe-aa64-7bb7575de396)
@@ -389,6 +393,7 @@
     (property "ki_description" "Mounting Hole with connection")
     (property "ki_keywords" "mounting hole")
     (path "/dd4773b8-24bf-4708-8f9f-f8fb2d44b2c4")
+    (attr exclude_from_bom)
     (fp_text reference "H3" (at 0 -5.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 263cf5a0-ce1e-4c6e-888a-dbdc8806a38c)
