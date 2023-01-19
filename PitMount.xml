@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\n.hofmann\Qsync\Mikrocontroller\Projekte\KiCad\PitMount\PitMount.kicad_sch</source>
-    <date>1/18/2023 2:34:46 PM</date>
+    <date>1/19/2023 7:52:54 AM</date>
     <tool>Eeschema (7.0.0-rc1-70-g9298defd3f)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,13 +26,13 @@
   <components>
     <comp ref="D1">
       <value>2SA0402S11A0JT01</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1806151119_Everlight-Elec-16-213-SDRC-S530-A3-TR8_C71911.pdf</datasheet>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
-        <field name="LCSC">C71911</field>
+        <field name="LCSC">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="LCSC" value="C71911"/>
+      <property name="LCSC" value="C2286"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -84,26 +84,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e7a0c2e5-a9b9-458f-a634-e124b119ebea</tstamps>
     </comp>
-    <comp ref="H5">
-      <value>Tooling_Hole</value>
-      <footprint>PitMount:Tooling Hole</footprint>
-      <libsource lib="PitMount" part="Tooling_Hole" description=""/>
+    <comp ref="J1">
+      <value>Conn_01x08_Pin</value>
+      <footprint>PitMount:VTXConn</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00c4b040-0c0a-44f7-a83c-745c7e9f586a</tstamps>
-    </comp>
-    <comp ref="H6">
-      <value>Tooling_Hole</value>
-      <footprint>PitMount:Tooling Hole</footprint>
-      <libsource lib="PitMount" part="Tooling_Hole" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f428637f-a06f-4f51-8742-a62625c7eb79</tstamps>
+      <tstamps>0bccd08d-4e53-4fb7-96f0-a8c25890538b</tstamps>
     </comp>
     <comp ref="JP1">
-      <value>SolderJumper_2_Open</value>
+      <value>Override</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
@@ -152,12 +145,12 @@
     <comp ref="R1">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206021130_VO-SCR0402F10K_C3015825.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
       <fields>
-        <field name="LCSC">C3015825</field>
+        <field name="LCSC">C25744</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C3015825"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -168,12 +161,12 @@
     <comp ref="R2">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206021130_VO-SCR0402F10K_C3015825.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
       <fields>
-        <field name="LCSC">C3015825</field>
+        <field name="LCSC">C25744</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C3015825"/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -184,12 +177,12 @@
     <comp ref="R3">
       <value>470R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810261420_YAGEO-RC0402FR-07470RL_C114877.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf</datasheet>
       <fields>
-        <field name="LCSC">C114877</field>
+        <field name="LCSC">C25118</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C114877"/>
+      <property name="LCSC" value="C25118"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -199,6 +192,28 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Pin">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="TestPoint">
       <description>test point</description>
       <docs>~</docs>
@@ -213,27 +228,6 @@
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x07">
-      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x07</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
@@ -313,12 +307,6 @@
         <pin num="4" name="RX" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="PitMount" part="Tooling_Hole">
-      <fields>
-        <field name="Reference">H</field>
-        <field name="Value">Tooling_Hole</field>
-      </fields>
-    </libpart>
     <libpart lib="PitMount" part="UnifyNano">
       <fields>
         <field name="Reference">U</field>
@@ -378,9 +366,6 @@
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
-    <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
-    </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
@@ -402,18 +387,36 @@
   </libraries>
   <nets>
     <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
+    <net code="2" name="/RX">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="3" name="/RX+5V">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/SA">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="5" name="/TX">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
     <net code="6" name="/VTXPwr">
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="7" name="/Vid">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="8" name="GND">
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
