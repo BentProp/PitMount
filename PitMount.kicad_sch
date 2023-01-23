@@ -1118,7 +1118,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x08_Pin") (at 43.434 37.084 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0bccd08d-4e53-4fb7-96f0-a8c25890538b)
     (property "Reference" "J1" (at 44.069 23.749 0)
       (effects (font (size 1.27 1.27)))
@@ -1229,7 +1229,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 258.445 24.765 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24804176-3315-4716-8bbc-e01bf025e551)
     (property "Reference" "H2" (at 262.255 23.4949 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1363,7 +1363,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 258.445 20.32 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5890d34d-218f-435b-ba67-2017655ebfa5)
     (property "Reference" "H1" (at 262.255 19.0499 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1504,7 +1504,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 96.52 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ea02758-663b-4293-812e-b6546280e50d)
     (property "Reference" "JP1" (at 96.52 97.79 0)
       (effects (font (size 1.27 1.27)))
@@ -1583,7 +1583,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 258.445 29.21 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd4773b8-24bf-4708-8f9f-f8fb2d44b2c4)
     (property "Reference" "H3" (at 262.255 27.9399 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1633,7 +1633,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 258.445 33.655 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7a0c2e5-a9b9-458f-a634-e124b119ebea)
     (property "Reference" "H4" (at 262.255 32.3849 90)
       (effects (font (size 1.27 1.27)) (justify left))
