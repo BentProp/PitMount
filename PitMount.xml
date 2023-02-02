@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>C:\Users\n.hofmann\Qsync\Mikrocontroller\Projekte\KiCad\PitMount\PitMount.kicad_sch</source>
-    <date>1/19/2023 7:52:54 AM</date>
+    <date>2/1/2023 3:02:50 PM</date>
     <tool>Eeschema (7.0.0-rc1-70-g9298defd3f)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>PitMount</title>
+        <company>Bentprop Electronics</company>
+        <rev>0.1.0</rev>
+        <date>2023-01-19</date>
         <source>PitMount.kicad_sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="© 2023 Nils Hofmann"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="D1">
-      <value>2SA0402S11A0JT01</value>
+      <value>KT-0603R</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf</datasheet>
       <fields>
@@ -40,149 +40,31 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1b8c00fa-e7ad-4458-b438-f3f4ef6a5d07</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MountingHole_Pad</value>
-      <footprint>PitMount:3.2mm_PTH</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5890d34d-218f-435b-ba67-2017655ebfa5</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole_Pad</value>
-      <footprint>PitMount:3.2mm_PTH</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>24804176-3315-4716-8bbc-e01bf025e551</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole_Pad</value>
-      <footprint>PitMount:3.2mm_PTH</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dd4773b8-24bf-4708-8f9f-f8fb2d44b2c4</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole_Pad</value>
-      <footprint>PitMount:3.2mm_PTH</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole with connection"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e7a0c2e5-a9b9-458f-a634-e124b119ebea</tstamps>
-    </comp>
-    <comp ref="J1">
-      <value>Conn_01x08_Pin</value>
-      <footprint>PitMount:VTXConn</footprint>
-      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0bccd08d-4e53-4fb7-96f0-a8c25890538b</tstamps>
-    </comp>
-    <comp ref="JP1">
-      <value>Override</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
-      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
-      <property name="ki_keywords" value="solder jumper SPST"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8ea02758-663b-4293-812e-b6546280e50d</tstamps>
-    </comp>
-    <comp ref="Q1">
-      <value>BC817</value>
+    <comp ref="Q3">
+      <value>AO3400A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2001081504_Shikues-BC817_C475629.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf</datasheet>
       <fields>
-        <field name="JLCPCB Rotation Offset">180</field>
-        <field name="LCSC">C475629</field>
+        <field name="LCSC">C20917</field>
       </fields>
-      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
-      <property name="LCSC" value="C475629"/>
-      <property name="JLCPCB Rotation Offset" value="180"/>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C20917"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_description" value="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f26f22e5-ff95-46ac-9fbb-be150ac8296d</tstamps>
-    </comp>
-    <comp ref="Q2">
-      <value>IRLML6401</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2005121032_HUASHUO-IRLML6401_C518776.pdf</datasheet>
-      <fields>
-        <field name="JLCPCB Rotation Offset">180</field>
-        <field name="LCSC">C518776</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="IRLML6401" description="-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
-      <property name="LCSC" value="C518776"/>
-      <property name="JLCPCB Rotation Offset" value="180"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="P-Channel HEXFET MOSFET Logic-Level"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>88e43983-8bfe-4340-8af8-8088211e3179</tstamps>
-    </comp>
-    <comp ref="R1">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C25744</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25744"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7ccde7a0-d574-4619-a25d-8b0b47b36f40</tstamps>
-    </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C25744</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25744"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PitMount.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7e3b335e-4bc6-45e7-9ed1-72b3b60b1429</tstamps>
+      <tstamps>834919e8-3a5e-4216-9fae-efd9e8d66a1c</tstamps>
     </comp>
     <comp ref="R3">
       <value>470R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF470JTCE_C25118.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf</datasheet>
       <fields>
-        <field name="LCSC">C25118</field>
+        <field name="LCSC">C25117</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25118"/>
+      <property name="LCSC" value="C25117"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PitMount.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -325,35 +207,17 @@
         <pin num="10" name="Btn" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_BJT" part="BC817">
-      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">BC817</field>
+        <field name="Value">AO3400A</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="IRLML6401">
-      <description>-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23</description>
-      <docs>https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">IRLML6401</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
@@ -378,65 +242,25 @@
     <library logical="PitMount">
       <uri>C:\Users\n.hofmann\Qsync\Mikrocontroller\Projekte\KiCad\PitMount/PitMount.kicad_sym</uri>
     </library>
-    <library logical="Transistor_BJT">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
-    </library>
     <library logical="Transistor_FET">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-    </net>
-    <net code="2" name="/RX">
-      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
-    </net>
-    <net code="3" name="/RX+5V">
-      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-    </net>
-    <net code="4" name="/SA">
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-    </net>
-    <net code="5" name="/TX">
-      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
-    </net>
-    <net code="6" name="/VTXPwr">
-      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="7" name="/Vid">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="6" name="/VTXGnd">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
     </net>
     <net code="8" name="GND">
-      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
     </net>
     <net code="9" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(D1-K)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
-    </net>
-    <net code="11" name="Net-(JP1-B)">
-      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
+    <net code="10" name="Net-(JP1-B)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R3" pin="1" pintype="passive"/>
-    </net>
-    <net code="12" name="Net-(Q1-C)">
-      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R2" pin="2" pintype="passive"/>
     </net>
   </nets>
 </export>
