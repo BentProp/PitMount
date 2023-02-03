@@ -6,10 +6,11 @@
 
   (title_block
     (title "PitMount")
-    (date "2023-01-19")
-    (rev "0.1.0")
+    (date "2023-02-01")
+    (rev "0.2.0")
     (company "Bentprop Electronics")
     (comment 1 "© 2023 Nils Hofmann")
+    (comment 2 "Rev 0.2.0: Switched to n-channel FET")
   )
 
   (lib_symbols
