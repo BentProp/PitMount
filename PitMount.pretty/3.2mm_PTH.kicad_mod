@@ -14,7 +14,7 @@
   )
   (fp_circle (center 0 0) (end 2.25 0)
     (stroke (width 0.05) (type solid)) (fill none) (layer "B.CrtYd") (tstamp 9fad98a3-87b6-4178-bac9-7f9e9a2b0742))
-  (fp_circle (center 0 0) (end 2.25 0)
+  (fp_circle (center 0 0) (end 3.005 0)
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 60fe79b3-36cb-469a-b084-1edfa1344929))
   (pad "1" thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.2) (layers "*.Cu" "*.Mask")
     (solder_mask_margin -0.5) (zone_connect 2) (tstamp 1370fac1-badb-4e73-95bf-52ef9f44699c))
